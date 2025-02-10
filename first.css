@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient();
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    background-color: lightgray;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: orange;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 3px;
+    float: left;
+    background-color: lightgrey;
+}
+
+.menu {
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 17px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:orange;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+
+.src {
+    width: 200px;
+    height: 40px;
+    border: 1px solid orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.btn {
+    height: 40px;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border: 1px solid orange;
+    background: orange;
+}
+
+.content {
+    width: 1200px;
+    position: relative;
+}
+
+.para {
+    color: rgba(34, 31, 31, 0.877);
+    font-size: medium;
+    font-family: Arial;
+    padding: 5px 25px;
+}
+
+.J {
+    background: orange;
+    font-size: medium;
+    font-family: Arial;
+    height: 40px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid orange;
+    border-radius: 10px;
+
+}
+
+h1 {
+    margin: 20px;
+}
+
+span {
+    color: orange;
+    margin: 5px;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 950px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+h2 {
+    color: orange;
+    margin: 15px;
+    margin-left: 5px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    color: white;
+    margin-top: 30px;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.btt {
+    background-color: orange;
+    border-radius: 10px;
+    color: black;
+    height: 40px;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.btt:hover {
+    background-color: white;
+}
+
+p {
+    margin-top: 20px;
+    color: white;
+
+
+}
+
+
+
+a {
+    color: white;
+
+}
+
+a:hover {
+    color: orange;
+}
+
+.icons {
+    color: white;
+}
+
+.icons icon-icon:hover {
+    color: orange;
+}
